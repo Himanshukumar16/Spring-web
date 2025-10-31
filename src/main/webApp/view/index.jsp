@@ -68,13 +68,13 @@
 <body>
 
     <div class="form-container">
-        <h2>Enter Two Numbers</h2>
-        <form action="add" method="post">
-            <label for="num1">First Number:</label>
-            <input type="number" id="num1" name="num1" placeholder="Enter first number" required>
+        <h2>Enter Details</h2>
+        <form action="addmember">
+            <label for="fid">Id :</label>
+            <input type="number" id="fid" name="fid" placeholder="Enter Id" required>
 
-            <label for="num2">Second Number:</label>
-            <input type="number" id="num2" name="num2" placeholder="Enter second number" required>
+            <label for="fname">Name :</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter name" required>
 
             <button type="submit">Submit</button>
         </form>

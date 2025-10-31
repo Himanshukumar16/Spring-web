@@ -1,0 +1,32 @@
+package SpringBootMVC.Web1;
+
+
+public class Family {
+
+    private int fid;
+    private String fname;
+
+    public int getFid() {
+        return fid;
+    }
+
+    public void setFid(int fid) {
+        this.fid = fid;
+    }
+
+    public String getFname() {
+        return fname;
+    }
+
+    public void setFname(String fname) {
+        this.fname = fname;
+    }
+
+    @Override
+    public String toString() {
+        return "Family{" +
+                "fid=" + fid +
+                ", fname='" + fname + '\'' +
+                '}';
+    }
+}
